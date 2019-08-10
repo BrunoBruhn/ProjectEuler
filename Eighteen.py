@@ -30,6 +30,7 @@ def pyramid_path(pyramid):
 
 			else:
 				pyramid_turned[stufe][index]=pyramid_turned[stufe-1][index+1]+pyramid_turned[stufe][index]
+
 			if stufe==len(pyramid)-1:
 				top_nr=pyramid_turned[-1][-1]
 			
